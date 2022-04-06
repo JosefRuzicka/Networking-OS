@@ -1,4 +1,4 @@
-## Kentucky Fried Computines
+## Proyecto de vacunación.
 
 Este equipo está conformado por Josef Ruzicka, Samantha Romero, Axel Matus y 	Wendy Ortiz.
 
