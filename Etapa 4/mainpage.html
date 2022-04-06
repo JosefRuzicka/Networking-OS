@@ -1,0 +1,55 @@
+<html lang="es">
+    <head>
+		<style>
+		body {
+			font-family: Georgia, serif;
+		}
+		</style>
+        <meta charset="utf-8" />
+        <title>Formulario Vacunacion</title>
+    </head>
+
+    <body>
+        <header>
+        <h1 style="text-align: center; margin-top: 5%;">Formulario de vacunación</h1>
+        <h3 style="text-align: center;">Por favor, Ingrese los datos del paciente</h3>
+        </header>
+
+	<form action="verificar_datos" method="POST" style="  margin-top: 3%; display: flex; flex-direction: column; align-items: center;">
+        <div style='display: flex; flex-direction: column; align-items: flex-end; font-size:large;'>
+            <div style='margin-top: 4%; '>
+                <label for = provincia> ID provincia	</label>
+				<input type="text" id="provincia" name="provincia">
+            </div>
+            <div style='  margin-top: 4%; '>
+                <label for = canton> ID Cantón	</label>	
+				<input type="text" id="canton" name="canton">
+            </div>
+
+            <div style='  margin-top: 4%;'>
+                <label for = a_salud> ID Área de Salud 	</label>	
+				<input type="text" id="a_salud" name="a_salud">
+            </div>
+
+            <div style='  margin-top: 4%;'>
+                <label for = cedula> Cédula del Usuario		</label>	
+				<input type="text" id="cedula" name="cedula"> 
+            </div>
+
+        </div>
+
+        <button style="
+        	background-color: #5cb85c;
+		  	border: 1px solid black;
+		 	color: black;
+		  	padding: 8px 40px;
+		  	text-align: center;
+		  	text-decoration: none;
+		  	display: inline-block;
+		  	font-size: 16px;
+		  	margin-top: 3%;" type="submit">Enviar
+		</button>
+    </form>
+        
+    </body>
+</html>
